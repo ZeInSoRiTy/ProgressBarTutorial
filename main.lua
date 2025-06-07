@@ -52,14 +52,4 @@ if game:IsLoaded() then
 		task.wait(.001)
 	end
 	
-	for i=1,720 do
-		
-		Clipping.Rotation += 1
-		task.wait(.001)
-	end
-	
-	task.wait(1)
-	
-	Bar.Parent.Enabled = false 
-	Bar.Parent.Parent.HealthUI.Enabled = true
 end
