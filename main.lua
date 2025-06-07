@@ -39,7 +39,7 @@ function resizeCustomLoadingBar(sizeRatio, clipping, top)
 	
 end
 
---пример работы прогресс бара
+--пример того как применять вышеуказанные функции
 if game:IsLoaded() then
 
 	for i=1,500 do
