@@ -3,8 +3,8 @@
 
 local TweenService = game:GetService("TweenService")
 
-local Bar = script.Parent
-local Clipping = Bar:WaitForChild("Clipping")
+local Bar = --путь до прогресс бара
+local Clipping = Bar:WaitForChild("Clipping") -- названия могут быть любые, главное структура должна быть такой же как в видео
 local Top = Clipping.Top
 
 function resizeCustomLoadingBar(sizeRatio, clipping, top)
@@ -25,6 +25,11 @@ end
 
 --1.2
 --функция на чистом Size
+
+local Bar = --путь до прогресс бара
+local Clipping = Bar:WaitForChild("Clipping") -- названия могут быть любые, главное структура должна быть такой же как в видео
+local Top = Clipping.Top
+
 function resizeCustomLoadingBar(sizeRatio, clipping, top)
 	
 	--sizeRatio = 0.5 -> 50% полоски должно быть заполнено
